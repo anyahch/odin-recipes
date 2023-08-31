@@ -1,7 +1,7 @@
 *{
     font-family: Handjet;
     background:bisque;
-    font-size: 3rem;
+    font-size: 28px;
     color:brown;
     text-decoration: none;
 }
@@ -16,7 +16,7 @@ a:checked{
 
 
 #heading{
-    font-size: 4rem;
+    font-size: 42px;
     font-family: 'Black Ops One';
     font-weight: normal;
     color:dimgray;
@@ -25,7 +25,7 @@ a:checked{
 }
 
 img{
-    width:2000px;
+    width:600px;
     height:auto;
 }
 
@@ -49,8 +49,23 @@ a{
     flex-wrap: wrap;
 }
 
-@media screen (min-width: 4000px) {
-    *{
-        background-color: azure;
-    }
+ul{
+    list-style:square;
+}
+
+p{
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 24px;
+    color:rgba(165, 42, 42, 0.699)
+}
+
+h2{
+    font-size: 36px;
+    color:rgb(88, 22, 22)
+}
+
+h3{
+    font-style: italic;
+    color:chocolate;
 }
